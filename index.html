@@ -41,10 +41,19 @@
       <script src="js/jquery.inview.min.js"></script>
       <script src="js/inview.animate.js"></script>
       <script type="text/javascript">
-      // Simple usage
-      inViewRunner('section1Title', 'goAnim');
-      inViewRunner('section2Title', 'goAnim');
-      inViewRunner('section3Title', 'goAnim');
+        // Simple usage
+        inViewRunner('section1Title', 'goAnim');
+        inViewRunner('section2Title', 'goAnim');
+        inViewRunner('section3Title', 'goAnim');
+        // Complete usage
+        $('#section2 h1').bind('inview', function(event, isInView) {
+          var caption = $('#handle2');
+          if (isInView) {
+            $(caption).fadeIn(2000);
+          } else {
+            $(caption).fadeOut(2000);
+          }
+        });
       </script>
   </foot>
 </body>
