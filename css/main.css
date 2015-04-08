@@ -1,0 +1,55 @@
+body, html {
+  font-size:16px;
+  height: 100%;
+  min-height: 100%;
+  text-align: center;
+  margin: 0;
+  color: white;
+}
+
+#content-wrapper {
+  height: 100%;
+  min-width: 900px;
+  min-height: 1000px;
+}
+
+section {
+  width: 100%;
+  position: relative;
+}
+
+.caption {
+  display: none;
+}
+
+.inner {
+  position: absolute;
+  width: 500px;
+  min-width: 100px;
+  top: 10px;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+#section1 {
+  background: url('../img/bg1.png') center center;
+  min-height: 1000px;
+}
+
+#section2 {
+  background: url('../img/bg2.png') center center;
+  min-height: 1000px;
+}
+
+#section3 {
+  background: url('../img/bg3.jpg') center center;
+  min-height: 1000px;
+}
+
+.caption {
+  width: 500px;
+  height: 200px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background-color: rgba(150, 150, 0, 0.5);
+}
