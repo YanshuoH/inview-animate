@@ -1,5 +1,5 @@
 # inview-animate
-Simple Demo for [JQuery.inview](https://github.com/protonet/jquery.inview)
+Simple [Demo](http://yanshuoh.github.io/inview-animate/) for [JQuery.inview](https://github.com/protonet/jquery.inview)
 ## Requirements
 ```html
     <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
